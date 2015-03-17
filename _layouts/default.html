@@ -2,10 +2,32 @@
 <html>
     {% include head.html %}
     <body id="page-top" class="index page-scroll">
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1566313320304890',
+          xfbml      : true,
+          version    : 'v2.2'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
     {% include nav.html %}
+
     {% include header.html %}
+
     {% include contents.html %}
+
     {% include about.html %}
+
+    {% include comments.html %}
 
     {% if site.contact == "static" %}
     
