@@ -6,7 +6,7 @@ description: "CCL 한국 런칭 10주년! 2015년 3월 19일 7시 총회와 함�
 
 twitter_username: cckorea
 github_username:  creativecommonskorea
-baseurl: "/cck-10th"
+# baseurl: "/cck-10th"
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
