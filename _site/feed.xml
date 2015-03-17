@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CCL 한국 런칭 10주년!</title>
+    <description>CCL 한국 런칭 10주년! 2015년 3월 19일 7시 총회와 함께 파티! 10th anniversary of Creative Commons Korea Community!</description>
+    <link>http://beta.cckorea.org/cck-10th/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 17 Mar 2015 12:16:21 +0900</pubDate>
+    <lastBuildDate>Tue, 17 Mar 2015 12:16:21 +0900</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+  </channel>
+</rss>

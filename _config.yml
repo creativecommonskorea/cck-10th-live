@@ -1,0 +1,53 @@
+# Site settings
+title: CCL 한국 런칭 10주년!
+email: creative@cckorea.org
+url: http://beta.cckorea.org/cck-10th
+description: "CCL 한국 런칭 10주년! 2015년 3월 19일 7시 총회와 함께 파티! 10th anniversary of Creative Commons Korea Community!"
+
+twitter_username: cckorea
+github_username:  creativecommonskorea
+baseurl: "/cck-10th"
+
+# Contact form: comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+  white: FFFFFF
+  party: 162f5e
+  howto: 4caf3b
+  howtofour: 411363
+  about: 423732
+
+# Footer settings
+footer:
+  copyright: CCKOREA에 의해 작성된 CCKOREA 웹사이트는 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/groups/CCKorean/
+  - title: twitter
+    url: http://twitter.com/cckorea
+  - title: github
+    url: http://github.com/creativecommonskorea
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 서울특별시 마포구 
+  - line: 서교동 363-20 5층
+
+# Credits content
+credits: |
+  designed by [ㅇㅇㅇ](https://github.com/Yeyeon), [sumihallo](https://www.facebook.com/sumihallo),    
+  coded by [mozodev](http://github.com/mozodev) based on [jeromelachaud/freelancer-theme](http://github.com/jeromelachaud/freelancer-theme)
+
+# Build settings
+markdown: kramdown
+permalink: pretty

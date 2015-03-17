@@ -1,0 +1,78 @@
+{% include css/bootstrap.min.css %}
+{% include css/main.css %}
+
+.navbar-brand.logo {
+	text-indent: -1000px;
+	background: url('/cck-10th/img/logo.png') no-repeat;
+	background-size: 200px 40px;
+	width: 200px;
+	height: 40px;
+	margin: 0.5em;
+}
+
+.navbar-brand.lead {
+	display: block;
+	margin: 0.5em;
+}
+
+#party,
+#party hr.star-light:after {
+	background: #{{ site.color.party }};
+}
+
+#howto,
+#howto hr.star-light:after {
+	background: #{{ site.color.howto }};
+}
+
+#howto-four,
+#howto-four hr.star-light:after {
+	background: #{{ site.color.howtofour }};
+}
+
+#howto-four .col-xs-6 {
+	margin-bottom: 2em;
+}
+
+#howto-details .row {
+	margin: 2em 0;
+}
+
+#about,
+#about hr.star-light:after {
+	background: #{{ site.color.about }};
+}
+
+#four-logo {
+	position: absolute;
+	left: 40%;
+	margin-top: -50px;
+	z-index: 10;
+	width: 180px;
+}
+
+@media (min-width:768px) { 
+	.navbar-brand.logo {
+		background-size: 300px 60px;
+		width: 300px;
+		height: 60px;
+	}
+	#four-logo {
+		width: auto;
+	}
+}
+
+section h2,
+section h3 {
+	margin: 0.5em 0;
+	line-height: 1.5;
+}
+
+section h3 {
+	font-size: 2.2em;
+	margin-top: 1em;
+}
+
+#presents, #donation, #social-funding, #welcome {
+	padding-top: 2em;
+}
